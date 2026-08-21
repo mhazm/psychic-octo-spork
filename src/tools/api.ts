@@ -27,7 +27,11 @@ export function registerApiTools(server: McpServer) {
           url += `?${queryStr}`;
         }
 
-        const response = await fetch(url);
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) {
           return {
             content: [
@@ -121,7 +125,11 @@ export function registerApiTools(server: McpServer) {
            };
         }
 
-        const response = await fetch(url);
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) {
           return {
             content: [
@@ -167,7 +175,11 @@ export function registerApiTools(server: McpServer) {
            };
         }
 
-        const response = await fetch(url);
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) {
           return {
             content: [
@@ -206,7 +218,11 @@ export function registerApiTools(server: McpServer) {
         if (!discordId || discordId.trim() === "") {
           return { content: [{ type: "text", text: "Error: discordId is required" }] };
         }
-        const response = await fetch(`${baseUrl}/api/mcp/economy?discordId=${discordId.trim()}`);
+        const response = await fetch(`${baseUrl}/api/mcp/economy?discordId=${discordId.trim()}`, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -229,7 +245,11 @@ export function registerApiTools(server: McpServer) {
         if (!discordId || discordId.trim() === "") {
           return { content: [{ type: "text", text: "Error: discordId is required" }] };
         }
-        const response = await fetch(`${baseUrl}/api/mcp/transactions?discordId=${discordId.trim()}`);
+        const response = await fetch(`${baseUrl}/api/mcp/transactions?discordId=${discordId.trim()}`, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -257,7 +277,11 @@ export function registerApiTools(server: McpServer) {
         const qs = params.toString();
         if (qs) url += `?${qs}`;
         
-        const response = await fetch(url);
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -275,7 +299,11 @@ export function registerApiTools(server: McpServer) {
     async () => {
       try {
         const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
-        const response = await fetch(`${baseUrl}/api/mcp/fuel`);
+        const response = await fetch(`${baseUrl}/api/mcp/fuel`, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -291,13 +319,31 @@ export function registerApiTools(server: McpServer) {
     "Fetch list of available cargos and their market history",
     {
       limit: z.number().optional().describe("Optional max items to fetch"),
+      game: z.string().optional().describe("Game to filter by (e.g., 'ets2' or 'ats')"),
+      name: z.string().optional().describe("Search cargo by name or in_game_id (e.g., 'Oil')"),
+      sortBy: z.string().optional().describe("Field to sort by (e.g., 'price' or 'final_price')"),
+      sortOrder: z.string().optional().describe("Sort order: 'asc' or 'desc'")
     },
-    async ({ limit }) => {
+    async ({ limit, game, name, sortBy, sortOrder }) => {
       try {
         const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
         let url = `${baseUrl}/api/mcp/cargo`;
-        if (limit !== undefined) url += `?limit=${limit}`;
-        const response = await fetch(url);
+        
+        const params = new URLSearchParams();
+        if (limit !== undefined) params.append("limit", limit.toString());
+        if (game) params.append("game", game.trim());
+        if (name) params.append("name", name.trim());
+        if (sortBy) params.append("sortBy", sortBy.trim());
+        if (sortOrder) params.append("sortOrder", sortOrder.trim());
+        
+        const qs = params.toString();
+        if (qs) url += `?${qs}`;
+        
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -320,7 +366,11 @@ export function registerApiTools(server: McpServer) {
         if (!discordId || discordId.trim() === "") {
           return { content: [{ type: "text", text: "Error: discordId is required" }] };
         }
-        const response = await fetch(`${baseUrl}/api/mcp/garage?discordId=${discordId.trim()}`);
+        const response = await fetch(`${baseUrl}/api/mcp/garage?discordId=${discordId.trim()}`, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -342,7 +392,11 @@ export function registerApiTools(server: McpServer) {
         const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
         let url = `${baseUrl}/api/mcp/convoy`;
         if (status && status.trim() !== "") url += `?status=${status.trim()}`;
-        const response = await fetch(url);
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -360,7 +414,11 @@ export function registerApiTools(server: McpServer) {
     async () => {
       try {
         const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
-        const response = await fetch(`${baseUrl}/api/mcp/community-goals`);
+        const response = await fetch(`${baseUrl}/api/mcp/community-goals`, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -378,7 +436,11 @@ export function registerApiTools(server: McpServer) {
     async () => {
       try {
         const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
-        const response = await fetch(`${baseUrl}/api/mcp/currency-boost`);
+        const response = await fetch(`${baseUrl}/api/mcp/currency-boost`, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -400,7 +462,11 @@ export function registerApiTools(server: McpServer) {
         const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
         let url = `${baseUrl}/api/mcp/gallery`;
         if (discordId && discordId.trim() !== "") url += `?discordId=${discordId.trim()}`;
-        const response = await fetch(url);
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
@@ -428,7 +494,11 @@ export function registerApiTools(server: McpServer) {
         const qs = params.toString();
         if (qs) url += `?${qs}`;
         
-        const response = await fetch(url);
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
         if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
         const data = await response.json();
         return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
