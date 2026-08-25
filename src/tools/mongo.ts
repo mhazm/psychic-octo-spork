@@ -50,10 +50,15 @@ export function registerMongoTools(server: McpServer, db: Db) {
       sort: z.string().optional().describe("JSON string representing sort order, e.g., '{\"createdAt\": -1}' for latest first")
     },
     async ({ collectionName, query, limit, sort }) => {
-      // Fungsi untuk meng-convert string ISO 8601 ke objek Date secara otomatis
+      // Fungsi untuk meng-convert string ISO 8601 atau YYYY-MM-DD ke objek Date secara otomatis
       const dateReviver = (key: string, value: any) => {
-          if (typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/.test(value)) {
-              return new Date(value);
+          if (typeof value === "string") {
+              const isoRegex = /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?(?:Z|[+-]\d{2}:\d{2})?$/;
+              const dateOnlyRegex = /^\d{4}-\d{2}-\d{2}$/;
+              if (isoRegex.test(value) || dateOnlyRegex.test(value)) {
+                  const d = new Date(value);
+                  if (!isNaN(d.getTime())) return d;
+              }
           }
           return value;
       };
@@ -69,7 +74,7 @@ export function registerMongoTools(server: McpServer, db: Db) {
         };
       }
       
-      let sortObj = {};
+      let sortObj: any = { _id: -1 }; // Default to newest first
       if (sort && sort.trim() !== "") {
          try {
             sortObj = JSON.parse(sort);
