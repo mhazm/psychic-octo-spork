@@ -39,7 +39,7 @@ async function main() {
 
   // Register Tools
   registerMongoTools(server, db);
-  registerBrainTools(server);
+  registerBrainTools(server, db);
   registerApiTools(server);
   registerPdfTools(server);
 

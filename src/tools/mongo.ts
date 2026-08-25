@@ -42,16 +42,26 @@ export function registerMongoTools(server: McpServer, db: Db) {
   // Tool 3: Query Collection
   server.tool(
     "query_collection",
-    "Run a find query on a collection (returns up to 10 results)",
+    "Run a find query on a collection",
     {
       collectionName: z.string().describe("Name of the collection"),
-      query: z.string().describe("JSON string representing the query filter, e.g., '{\"status\":\"active\"}'")
+      query: z.string().describe("JSON string representing the query filter, e.g., '{\"status\":\"active\"}'"),
+      limit: z.number().optional().describe("Maximum number of results to return (default: 10, max: 1000)"),
+      sort: z.string().optional().describe("JSON string representing sort order, e.g., '{\"createdAt\": -1}' for latest first")
     },
-    async ({ collectionName, query }) => {
+    async ({ collectionName, query, limit, sort }) => {
+      // Fungsi untuk meng-convert string ISO 8601 ke objek Date secara otomatis
+      const dateReviver = (key: string, value: any) => {
+          if (typeof value === "string" && /^\d{4}-\d{2}-\d{2}T\d{2}:\d{2}:\d{2}(?:\.\d+)?Z$/.test(value)) {
+              return new Date(value);
+          }
+          return value;
+      };
+
       let filter = {};
       try {
         if (query && query.trim() !== "") {
-           filter = JSON.parse(query);
+           filter = JSON.parse(query, dateReviver);
         }
       } catch (e) {
         return {
@@ -59,7 +69,20 @@ export function registerMongoTools(server: McpServer, db: Db) {
         };
       }
       
-      const docs = await db.collection(collectionName).find(filter).limit(10).toArray();
+      let sortObj = {};
+      if (sort && sort.trim() !== "") {
+         try {
+            sortObj = JSON.parse(sort);
+         } catch (e) {
+            return {
+              content: [{ type: "text", text: `Invalid sort JSON: ${e}` }]
+            };
+         }
+      }
+
+      const resultLimit = Math.min(limit || 10, 10000);
+      const docs = await db.collection(collectionName).find(filter).sort(sortObj).limit(resultLimit).toArray();
+      
       return {
         content: [{ type: "text", text: JSON.stringify(docs, null, 2) }]
       };

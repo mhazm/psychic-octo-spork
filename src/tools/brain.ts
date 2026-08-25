@@ -1,4 +1,5 @@
 import { McpServer } from "@modelcontextprotocol/sdk/server/mcp.js";
+import { Db } from "mongodb";
 import { z } from "zod";
 import * as fs from "fs/promises";
 import * as path from "path";
@@ -6,7 +7,7 @@ import * as readline from "readline";
 import { createReadStream } from "fs";
 import os from "os";
 
-export function registerBrainTools(server: McpServer) {
+export function registerBrainTools(server: McpServer, db: Db) {
   // Tool 4: Search Antigravity Chats
   server.tool(
     "search_antigravity_chats",
@@ -85,6 +86,44 @@ export function registerBrainTools(server: McpServer) {
        } catch (err) {
          return { content: [{ type: "text", text: `Error reading knowledge directory: ${err}` }] };
        }
+    }
+  );
+
+  // Tool 6: Get Current Time
+  server.tool(
+    "get_current_time",
+    "Get the current system date and time. Use this when a user asks about today, yesterday, tomorrow, or a specific date.",
+    {},
+    async () => {
+      const now = new Date();
+      return {
+        content: [{ 
+          type: "text", 
+          text: `Current Date and Time: ${now.toISOString()}\nLocal: ${now.toString()}` 
+        }]
+      };
+    }
+  );
+
+  // Tool 7: Get AI Chat History
+  server.tool(
+    "get_aichat_history",
+    "Get the past conversation history between a specific user and the AI from the MongoDB aichathistories collection.",
+    {
+      discordId: z.string().describe("The Discord ID of the user whose chat history you want to retrieve")
+    },
+    async ({ discordId }) => {
+      try {
+        const doc = await db.collection("aichathistories").findOne({ discordId });
+        if (!doc) {
+          return { content: [{ type: "text", text: `No chat history found for discordId: ${discordId}` }] };
+        }
+        return {
+          content: [{ type: "text", text: JSON.stringify(doc.history, null, 2) }]
+        };
+      } catch (err: any) {
+        return { content: [{ type: "text", text: `Error retrieving chat history: ${err.message}` }] };
+      }
     }
   );
 }
