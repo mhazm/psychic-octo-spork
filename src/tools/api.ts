@@ -507,4 +507,26 @@ export function registerApiTools(server: McpServer) {
       }
     }
   );
+
+  // 12. Events
+  server.tool(
+    "get_events_via_api",
+    "Mengambil semua jadwal event komunitas (Convoy, Contracts, NC Boosts, Coupons, Community Goals) secara kronologis dari Nismara Transport API.",
+    {},
+    async () => {
+      try {
+        const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
+        const response = await fetch(`${baseUrl}/api/mcp/events`, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
+        if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
+        const data = await response.json();
+        return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
+      } catch (err: any) {
+        return { content: [{ type: "text", text: `Failed to fetch from API: ${err.message}` }] };
+      }
+    }
+  );
 }

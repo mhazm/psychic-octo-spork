@@ -8,6 +8,7 @@ import { registerMongoTools } from "./tools/mongo.js";
 import { registerBrainTools } from "./tools/brain.js";
 import { registerApiTools } from "./tools/api.js";
 import { registerPdfTools } from "./tools/pdf.js";
+import { registerFsTools } from "./tools/fs.js";
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
@@ -42,6 +43,7 @@ async function main() {
   registerBrainTools(server, db);
   registerApiTools(server);
   registerPdfTools(server);
+  registerFsTools(server);
 
   const transport = new StdioServerTransport();
   await server.connect(transport);
