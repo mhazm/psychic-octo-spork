@@ -1,0 +1,279 @@
+[
+  {
+    "_id": "6af3010557a57a3f0b650af5",
+    "guildId": "863959415702028318",
+    "slug": "hari-pahlawan-2026",
+    "nameEvent": "Hari Pahlawan 2026",
+    "multiplier": 0.4,
+    "imageUrl": "https://images.nismara.my.id/events/338418945620967434-1794310403735-hari-pahlawan-2026.webp",
+    "type": "all",
+    "gameId": "all",
+    "participants": [
+      {
+        "discordId": "205980234078486528",
+        "totalEarned": 19402,
+        "_id": "6af30482b85baf47f0892963",
+        "joinedAt": "2026-11-10T11:48:18.203Z"
+      },
+      {
+        "discordId": "388595157311815704",
+        "totalEarned": 5345,
+        "_id": "6af30a51b85baf47f0892b50",
+        "joinedAt": "2026-11-10T12:13:05.250Z"
+      },
+      {
+        "discordId": "1448928869485641772",
+        "totalEarned": 6023,
+        "_id": "6af30aacb85baf47f0892b94",
+        "joinedAt": "2026-11-10T12:14:36.718Z"
+      },
+      {
+        "discordId": "1455967237268701219",
+        "totalEarned": 1225,
+        "_id": "6af3111bb85baf47f0892d96",
+        "joinedAt": "2026-11-10T12:42:03.654Z"
+      },
+      {
+        "discordId": "1078836320677396562",
+        "totalEarned": 6728,
+        "_id": "6af31201b85baf47f0892dfb",
+        "joinedAt": "2026-11-10T12:45:53.930Z"
+      },
+      {
+        "discordId": "1518236567670489387",
+        "totalEarned": 1196,
+        "_id": "6af31250b85baf47f0892e78",
+        "joinedAt": "2026-11-10T12:47:12.607Z"
+      },
+      {
+        "discordId": "1451348019768332482",
+        "totalEarned": 3958,
+        "_id": "6af324adb85baf47f0893420",
+        "joinedAt": "2026-11-10T14:05:33.768Z"
+      },
+      {
+        "discordId": "345519014467993610",
+        "totalEarned": 4334,
+        "_id": "6af325feb85baf47f08934ba",
+        "joinedAt": "2026-11-10T14:11:10.076Z"
+      },
+      {
+        "discordId": "595479767919230984",
+        "totalEarned": 12273,
+        "_id": "6af33856b85baf47f0893acb",
+        "joinedAt": "2026-11-10T15:29:26.405Z"
+      },
+      {
+        "discordId": "758211367441924124",
+        "totalEarned": 16404,
+        "_id": "6af342e4b85baf47f0893de8",
+        "joinedAt": "2026-11-10T16:14:28.599Z"
+      },
+      {
+        "discordId": "460737485719207947",
+        "totalEarned": 16511,
+        "_id": "6af35060b85baf47f0894b8c",
+        "joinedAt": "2026-11-10T17:12:00.762Z"
+      },
+      {
+        "discordId": "714184505891618939",
+        "totalEarned": 3409,
+        "_id": "6af3569ab85baf47f0894d8c",
+        "joinedAt": "2026-11-10T17:38:34.095Z"
+      },
+      {
+        "discordId": "432532707839311893",
+        "totalEarned": 2752,
+        "_id": "6af389c8b85baf47f0895d37",
+        "joinedAt": "2026-11-10T21:16:56.891Z"
+      },
+      {
+        "discordId": "560419724249530369",
+        "totalEarned": 6072,
+        "_id": "6af39b1eb85baf47f08962a9",
+        "joinedAt": "2026-11-10T22:30:54.545Z"
+      },
+      {
+        "discordId": "1000036187307769886",
+        "totalEarned": 3969,
+        "_id": "6af3f09ab85baf47f0898582",
+        "joinedAt": "2026-11-11T04:35:38.567Z"
+      },
+      {
+        "discordId": "555540395916918795",
+        "totalEarned": 3255,
+        "_id": "6af41e5fb85baf47f0899cab",
+        "joinedAt": "2026-11-11T07:50:55.788Z"
+      },
+      {
+        "discordId": "720625638469271665",
+        "totalEarned": 14638,
+        "_id": "6af45973b85baf47f089b6f4",
+        "joinedAt": "2026-11-11T12:02:59.097Z"
+      },
+      {
+        "discordId": "531430558371151882",
+        "totalEarned": 4666,
+        "_id": "6af4669bb85baf47f089bb8a",
+        "joinedAt": "2026-11-11T12:59:07.632Z"
+      },
+      {
+        "discordId": "530707102289625101",
+        "totalEarned": 1543,
+        "_id": "6af477d9b85baf47f089c120",
+        "joinedAt": "2026-11-11T14:12:41.868Z"
+      },
+      {
+        "discordId": "1006771406350069832",
+        "totalEarned": 3951,
+        "_id": "6af4f6ddb85baf47f089fa88",
+        "joinedAt": "2026-11-11T23:14:37.296Z"
+      },
+      {
+        "discordId": "804280471524474921",
+        "totalEarned": 1348,
+        "_id": "6af53068b85baf47f08a0a5a",
+        "joinedAt": "2026-11-12T03:20:08.596Z"
+      },
+      {
+        "discordId": "573884186998603777",
+        "totalEarned": 2570,
+        "_id": "6af530aab85baf47f08a0aac",
+        "joinedAt": "2026-11-12T03:21:14.835Z"
+      },
+      {
+        "discordId": "687520638218272778",
+        "totalEarned": 3573,
+        "_id": "6af54fe6b85baf47f08a1d83",
+        "joinedAt": "2026-11-12T05:34:30.739Z"
+      },
+      {
+        "discordId": "384287010883502081",
+        "totalEarned": 9760,
+        "_id": "6af563b6b85baf47f08a2509",
+        "joinedAt": "2026-11-12T06:59:02.823Z"
+      },
+      {
+        "discordId": "338418945620967434",
+        "totalEarned": 9207
+      },
+      {
+        "discordId": "560419724249530369",
+        "totalEarned": 347
+      },
+      {
+        "discordId": "460737485719207947",
+        "totalEarned": 256
+      },
+      {
+        "discordId": "560419724249530369",
+        "totalEarned": 864
+      },
+      {
+        "discordId": "456696560416194570",
+        "totalEarned": 16676,
+        "_id": "6af5a040b85baf47f08a4223",
+        "joinedAt": "2026-11-12T11:17:20.550Z"
+      },
+      {
+        "discordId": "560419724249530369",
+        "totalEarned": 1286
+      },
+      {
+        "discordId": "560419724249530369",
+        "totalEarned": 598
+      },
+      {
+        "discordId": "617669587005341718",
+        "totalEarned": 12217,
+        "_id": "6af67d73b85baf47f08a9795",
+        "joinedAt": "2026-11-13T03:01:07.694Z"
+      },
+      {
+        "discordId": "789119031286300672",
+        "totalEarned": 4899,
+        "_id": "6af6a11ab85baf47f08aab46",
+        "joinedAt": "2026-11-13T05:33:14.994Z"
+      },
+      {
+        "discordId": "843411554170437642",
+        "totalEarned": 9499,
+        "_id": "6af6b9afb85baf47f08ab318",
+        "joinedAt": "2026-11-13T07:18:07.688Z"
+      },
+      {
+        "discordId": "1372123383906439252",
+        "totalEarned": 539,
+        "_id": "6af703d4b85baf47f08ad35d",
+        "joinedAt": "2026-11-13T12:34:28.041Z"
+      },
+      {
+        "discordId": "1549503716414193784",
+        "totalEarned": 13933,
+        "_id": "6af31210b85baf47f0892e41",
+        "joinedAt": "2026-11-10T12:46:08.658Z"
+      },
+      {
+        "discordId": "564485919013470208",
+        "totalEarned": 367,
+        "_id": "6af74525b85baf47f08af15f",
+        "joinedAt": "2026-11-13T17:13:09.224Z"
+      },
+      {
+        "discordId": "1209830431877234698",
+        "totalEarned": 2373
+      },
+      {
+        "discordId": "1109756597774843977",
+        "totalEarned": 705,
+        "_id": "6af7c299b85baf47f08b1f6b",
+        "joinedAt": "2026-11-14T02:08:25.788Z"
+      },
+      {
+        "discordId": "1571085136261554208",
+        "totalEarned": 8725,
+        "_id": "6af86494b85baf47f08b65bf",
+        "joinedAt": "2026-11-14T13:39:32.015Z"
+      },
+      {
+        "discordId": "513879916169920512",
+        "totalEarned": 3981,
+        "_id": "6af87744b85baf47f08b6cda",
+        "joinedAt": "2026-11-14T14:59:16.176Z"
+      },
+      {
+        "discordId": "498784834508947459",
+        "totalEarned": 5242,
+        "_id": "6af884d243982c6f2af93024",
+        "joinedAt": "2026-11-14T15:57:06.103Z"
+      },
+      {
+        "discordId": "465090189262585866",
+        "totalEarned": 2525,
+        "_id": "6af8853b43982c6f2af93176",
+        "joinedAt": "2026-11-14T15:58:51.793Z"
+      },
+      {
+        "discordId": "377833394131697674",
+        "totalEarned": 6918,
+        "_id": "6af8857043982c6f2af93218",
+        "joinedAt": "2026-11-14T15:59:44.466Z"
+      },
+      {
+        "discordId": "656562242652864543",
+        "totalEarned": 3283,
+        "_id": "6af8990e43982c6f2af93d49",
+        "joinedAt": "2026-11-14T17:23:26.870Z"
+      }
+    ],
+    "isActive": false,
+    "isScheduled": false,
+    "setBy": "338418945620967434",
+    "setAt": "2026-11-10T11:33:25.109Z",
+    "startDate": "2026-11-10T11:33:25.108Z",
+    "endAt": "2026-11-15T16:59:00.000Z",
+    "createdAt": "2026-11-10T11:33:25.109Z",
+    "updatedAt": "2026-11-15T16:59:45.967Z",
+    "__v": 38
+  }
+]

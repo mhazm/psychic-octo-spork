@@ -24,3 +24,7 @@ Thumbs.db
 
 # Antigravity Agents
 /.agents
+/scratch/
+*.csv
+*.md
+/src/scripts/*

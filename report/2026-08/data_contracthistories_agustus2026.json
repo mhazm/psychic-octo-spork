@@ -1,0 +1,296 @@
+[
+  {
+    "_id": "6a864388597b50e6f072e3a2",
+    "guildId": "863959415702028318",
+    "gameId": "2",
+    "contractName": "Auto Parts Last Mile",
+    "companyName": "Apade",
+    "setBy": "460737485719207947",
+    "startDate": "2026-08-14T11:34:42.508Z",
+    "endDate": "2026-08-20T00:00:00.000Z",
+    "closedAt": "2026-08-20T00:00:08.020Z",
+    "durationDays": 6,
+    "completedContracts": 51,
+    "totalNCEarned": 1157621,
+    "totalDistance": 102516.98999999999,
+    "totalMass": 863,
+    "contributors": [
+      {
+        "driverId": "465090189262585866",
+        "jobs": 12,
+        "totalNC": 353862,
+        "totalDistance": 23325,
+        "totalMass": 222
+      },
+      {
+        "driverId": "460737485719207947",
+        "jobs": 5,
+        "totalNC": 131606,
+        "totalDistance": 13947,
+        "totalMass": 52
+      },
+      {
+        "driverId": "384287010883502081",
+        "jobs": 2,
+        "totalNC": 27783,
+        "totalDistance": 2695,
+        "totalMass": 26
+      },
+      {
+        "driverId": "369123825289265152",
+        "jobs": 13,
+        "totalNC": 173371,
+        "totalDistance": 18756,
+        "totalMass": 212
+      },
+      {
+        "driverId": "377833394131697674",
+        "jobs": 16,
+        "totalNC": 439426,
+        "totalDistance": 39892.990000000005,
+        "totalMass": 302
+      },
+      {
+        "driverId": "1285073617817702400",
+        "jobs": 2,
+        "totalNC": 17653,
+        "totalDistance": 2583,
+        "totalMass": 36
+      },
+      {
+        "driverId": "626026735309422612",
+        "jobs": 1,
+        "totalNC": 13920,
+        "totalDistance": 1318,
+        "totalMass": 13
+      }
+    ],
+    "createdAt": "2026-08-20T00:00:08.026Z",
+    "updatedAt": "2026-08-20T00:00:08.026Z",
+    "__v": 0
+  },
+  {
+    "_id": "6a864385597b50e6f072e396",
+    "guildId": "863959415702028318",
+    "gameId": "1",
+    "contractName": "Tree n Wood Rush",
+    "companyName": "TREE-ET",
+    "setBy": "460737485719207947",
+    "startDate": "2026-08-14T11:33:22.961Z",
+    "endDate": "2026-08-20T00:00:00.000Z",
+    "closedAt": "2026-08-20T00:00:05.926Z",
+    "durationDays": 6,
+    "completedContracts": 126,
+    "totalNCEarned": 1817768,
+    "totalDistance": 174983.85,
+    "totalMass": 3151,
+    "contributors": [
+      {
+        "driverId": "720625638469271665",
+        "jobs": 13,
+        "totalNC": 143531,
+        "totalDistance": 15513,
+        "totalMass": 394
+      },
+      {
+        "driverId": "1111964192065462272",
+        "jobs": 1,
+        "totalNC": 2868,
+        "totalDistance": 646,
+        "totalMass": 4
+      },
+      {
+        "driverId": "626026735309422612",
+        "jobs": 10,
+        "totalNC": 265110,
+        "totalDistance": 18492,
+        "totalMass": 217
+      },
+      {
+        "driverId": "438376780324143106",
+        "jobs": 9,
+        "totalNC": 161535,
+        "totalDistance": 12328,
+        "totalMass": 224
+      },
+      {
+        "driverId": "498784834508947459",
+        "jobs": 6,
+        "totalNC": 111420,
+        "totalDistance": 13101,
+        "totalMass": 149
+      },
+      {
+        "driverId": "456696560416194570",
+        "jobs": 14,
+        "totalNC": 223687,
+        "totalDistance": 19284.77,
+        "totalMass": 399
+      },
+      {
+        "driverId": "531430558371151882",
+        "jobs": 2,
+        "totalNC": 9300,
+        "totalDistance": 1190,
+        "totalMass": 30
+      },
+      {
+        "driverId": "569513708099862550",
+        "jobs": 12,
+        "totalNC": 98705,
+        "totalDistance": 11623.74,
+        "totalMass": 251
+      },
+      {
+        "driverId": "432532707839311893",
+        "jobs": 11,
+        "totalNC": 124012,
+        "totalDistance": 11632,
+        "totalMass": 371
+      },
+      {
+        "driverId": "789119031286300672",
+        "jobs": 4,
+        "totalNC": 66495,
+        "totalDistance": 11622,
+        "totalMass": 72
+      },
+      {
+        "driverId": "816739990692298752",
+        "jobs": 4,
+        "totalNC": 19950,
+        "totalDistance": 3040,
+        "totalMass": 52
+      },
+      {
+        "driverId": "656562242652864543",
+        "jobs": 5,
+        "totalNC": 129542,
+        "totalDistance": 12383.66,
+        "totalMass": 115
+      },
+      {
+        "driverId": "560419724249530369",
+        "jobs": 1,
+        "totalNC": 31528,
+        "totalDistance": 3192,
+        "totalMass": 24
+      },
+      {
+        "driverId": "1088989514942398566",
+        "jobs": 7,
+        "totalNC": 23380,
+        "totalDistance": 3745,
+        "totalMass": 187
+      },
+      {
+        "driverId": "411857995732090880",
+        "jobs": 2,
+        "totalNC": 26373,
+        "totalDistance": 1782,
+        "totalMass": 42
+      },
+      {
+        "driverId": "687520638218272778",
+        "jobs": 2,
+        "totalNC": 6591,
+        "totalDistance": 1453,
+        "totalMass": 62
+      },
+      {
+        "driverId": "530707102289625101",
+        "jobs": 3,
+        "totalNC": 65254,
+        "totalDistance": 6059,
+        "totalMass": 81
+      },
+      {
+        "driverId": "345519014467993610",
+        "jobs": 1,
+        "totalNC": 4635,
+        "totalDistance": 972,
+        "totalMass": 26
+      },
+      {
+        "driverId": "460737485719207947",
+        "jobs": 1,
+        "totalNC": 8364,
+        "totalDistance": 982,
+        "totalMass": 29
+      },
+      {
+        "driverId": "617669587005341718",
+        "jobs": 4,
+        "totalNC": 33912,
+        "totalDistance": 3626.93,
+        "totalMass": 88
+      },
+      {
+        "driverId": "465090189262585866",
+        "jobs": 1,
+        "totalNC": 6898,
+        "totalDistance": 953,
+        "totalMass": 29
+      },
+      {
+        "driverId": "1513428101399318652",
+        "jobs": 1,
+        "totalNC": 5133,
+        "totalDistance": 967,
+        "totalMass": 22
+      },
+      {
+        "driverId": "377833394131697674",
+        "jobs": 1,
+        "totalNC": 4407,
+        "totalDistance": 960,
+        "totalMass": 23
+      },
+      {
+        "driverId": "758754205208281101",
+        "jobs": 1,
+        "totalNC": 4035,
+        "totalDistance": 954,
+        "totalMass": 23
+      },
+      {
+        "driverId": "804280471524474921",
+        "jobs": 2,
+        "totalNC": 37926,
+        "totalDistance": 3589,
+        "totalMass": 37
+      },
+      {
+        "driverId": "384287010883502081",
+        "jobs": 4,
+        "totalNC": 83793,
+        "totalDistance": 5824,
+        "totalMass": 111
+      },
+      {
+        "driverId": "338418945620967434",
+        "jobs": 2,
+        "totalNC": 97491,
+        "totalDistance": 5439.8,
+        "totalMass": 48
+      },
+      {
+        "driverId": "1000036187307769886",
+        "jobs": 1,
+        "totalNC": 9539,
+        "totalDistance": 2158,
+        "totalMass": 28
+      },
+      {
+        "driverId": "1275826960534343792",
+        "jobs": 1,
+        "totalNC": 12354,
+        "totalDistance": 1470.95,
+        "totalMass": 13
+      }
+    ],
+    "createdAt": "2026-08-20T00:00:05.938Z",
+    "updatedAt": "2026-08-20T00:00:05.938Z",
+    "__v": 0
+  }
+]

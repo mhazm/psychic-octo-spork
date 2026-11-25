@@ -1,0 +1,99 @@
+[
+  {
+    "_id": "6af2da89937c0c1d12d91730",
+    "guildId": "863959415702028318",
+    "gameId": "1",
+    "convoyUri": "road-to-iceland-part-1",
+    "convoyName": "Road To Iceland Part 1",
+    "description": "Oslo adalah ibu kota sekaligus kota terbesar dan terpadat di Norwegia.\r\n\r\n• Sejarah Singkat: Didirikan sekitar tahun 1040–1048 Masehi pada zaman Viking, sempat berganti nama menjadi Christiania atau Kristiania dari abad ke-17 hingga tahun 1925 sebelum kembali menggunakan nama Oslo.\r\n• Pusat Ekonomi & Politik: Menjadi pusat pemerintahan, perdagangan, perbankan, industri, dan maritim utama di Norwegia serta Eropa.\r\n• Geografi & Alam: Terletak di ujung utara Oslofjord dan dikelilingi oleh hutan hijau serta danau, sehingga menawarkan perpaduan gaya hidup perkotaan modern dengan akses cepat ke alam bebas.\r\n• Landmark & Budaya: Rumah bagi Oslo Opera House, Munch Museum, Taman Vigeland, serta Universitas Oslo.\r\n• Kota Berkelanjutan: Oslo dikenal dengan komitmen kuatnya terhadap lingkungan, termasuk perluasan jalur sepeda, pengurangan mobil di pusat kota, dan target netral iklim.\r\n\r\nDan Norwegia merupakan salah satu pintu utama menuju ke Islandia\r\nButuh DLC Scandinavia",
+    "imageUrl": "https://images.nismara.my.id/events/convoys/460737485719207947-1794300592908-ets2-20261110-154125-00.webp",
+    "password": "gasoline",
+    "active": false,
+    "setBy": "460737485719207947",
+    "typeConvoy": "Mingguan",
+    "startDate": "2026-11-14T21:30:00.000Z",
+    "meetupDate": "2026-11-14T21:00:00.000Z",
+    "sourceCity": "Odense (Scandinavia)",
+    "destinationCity": "Oslo (Scandinavia)",
+    "sourceCompany": "BHV",
+    "destinationCompany": "NS OIL",
+    "cargoName": "Gasoline",
+    "cargoMass": 17,
+    "plannedDistanceKm": 685,
+    "gameplayType": "Convoy Lobby",
+    "lobbyId": "85568392935732469",
+    "serverName": "",
+    "partisipan": [
+      {
+        "truckyId": "249663",
+        "discordId": "460737485719207947",
+        "jobId": 28389316,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "269068",
+        "discordId": "720625638469271665",
+        "jobId": 28390170,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "246402",
+        "discordId": "377833394131697674",
+        "jobId": 28390120,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "263877",
+        "discordId": "617669587005341718",
+        "jobId": 28390063,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "242319",
+        "discordId": "465090189262585866",
+        "jobId": 28390330,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "256101",
+        "discordId": "388595157311815704",
+        "jobId": 28390044,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279509",
+        "discordId": "1549503716414193784",
+        "jobId": 28390442
+      },
+      {
+        "truckyId": "257058",
+        "discordId": "498784834508947459",
+        "jobId": 28390473
+      }
+    ],
+    "interested": [
+      "460737485719207947",
+      "388595157311815704",
+      "617669587005341718",
+      "843411554170437642",
+      "1209830431877234698",
+      "377833394131697674",
+      "1448928869485641772",
+      "494305177994526730",
+      "205980234078486528"
+    ],
+    "roadCaptain": "617669587005341718",
+    "sweeper": "",
+    "rewards": {
+      "participantBase": 1000,
+      "participantMultiplier": 150,
+      "rc": 1500,
+      "sweeper": 1500,
+      "manager": 3000
+    },
+    "createdAt": "2026-11-10T08:49:13.042Z",
+    "updatedAt": "2026-11-15T06:36:26.116Z",
+    "notified1h": true,
+    "ticketNumber": "NCE-0012"
+  }
+]

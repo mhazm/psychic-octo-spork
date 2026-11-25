@@ -1,0 +1,403 @@
+[
+  {
+    "_id": "6a8cf27b804063c597e40ac0",
+    "guildId": "863959415702028318",
+    "slug": "maulid-nabi-muhammad-saw-1448h",
+    "nameEvent": "Maulid Nabi Muhammad SAW 1448H",
+    "multiplier": 0.4,
+    "imageUrl": "https://images.nismara.my.id/events/338418945620967434-1787622010696-ilustrasi-ucapan-maulid-nabi-2026.webp",
+    "type": "all",
+    "gameId": "all",
+    "participants": [
+      {
+        "discordId": "1109756597774843977",
+        "totalEarned": 1678,
+        "_id": "6a8d0844cab96c4b8714addd",
+        "joinedAt": "2026-08-25T03:13:08.318Z"
+      },
+      {
+        "discordId": "626026735309422612",
+        "totalEarned": 26302,
+        "_id": "6a8d1cea1538689802ce86ad",
+        "joinedAt": "2026-08-25T04:41:14.498Z"
+      },
+      {
+        "discordId": "377833394131697674",
+        "totalEarned": 59391,
+        "_id": "6a8d2bbe1538689802ce9232",
+        "joinedAt": "2026-08-25T05:44:30.411Z"
+      },
+      {
+        "discordId": "687520638218272778",
+        "totalEarned": 8964,
+        "_id": "6a8d2f951538689802ce932d",
+        "joinedAt": "2026-08-25T06:00:53.110Z"
+      },
+      {
+        "discordId": "384287010883502081",
+        "totalEarned": 30640,
+        "_id": "6a8d34551538689802ce9478",
+        "joinedAt": "2026-08-25T06:21:09.831Z"
+      },
+      {
+        "discordId": "1285073617817702400",
+        "totalEarned": 7515,
+        "_id": "6a8d346e1538689802ce94b9",
+        "joinedAt": "2026-08-25T06:21:34.530Z"
+      },
+      {
+        "discordId": "573884186998603777",
+        "totalEarned": 8867,
+        "_id": "6a8d34c81538689802ce9527",
+        "joinedAt": "2026-08-25T06:23:04.916Z"
+      },
+      {
+        "discordId": "789119031286300672",
+        "totalEarned": 9847,
+        "_id": "6a8d39fb1538689802ce96c8",
+        "joinedAt": "2026-08-25T06:45:15.663Z"
+      },
+      {
+        "discordId": "432532707839311893",
+        "totalEarned": 24446,
+        "_id": "6a8d8e7c1538689802ceb206",
+        "joinedAt": "2026-08-25T12:45:48.138Z"
+      },
+      {
+        "discordId": "560419724249530369",
+        "totalEarned": 23672,
+        "_id": "6a8d8ec11538689802ceb25c",
+        "joinedAt": "2026-08-25T12:46:57.664Z"
+      },
+      {
+        "discordId": "1088989514942398566",
+        "totalEarned": 8985,
+        "_id": "6a8d8f451538689802ceb2b6",
+        "joinedAt": "2026-08-25T12:49:09.438Z"
+      },
+      {
+        "discordId": "155617826114240512",
+        "totalEarned": 3066,
+        "_id": "6a8d8f6d1538689802ceb2f1",
+        "joinedAt": "2026-08-25T12:49:49.969Z"
+      },
+      {
+        "discordId": "617669587005341718",
+        "totalEarned": 12985,
+        "_id": "6a8d90ec1538689802ceb47e",
+        "joinedAt": "2026-08-25T12:56:12.336Z"
+      },
+      {
+        "discordId": "720625638469271665",
+        "totalEarned": 12457,
+        "_id": "6a8d99241538689802ceb7d6",
+        "joinedAt": "2026-08-25T13:31:16.562Z"
+      },
+      {
+        "discordId": "1094385139095720029",
+        "totalEarned": 4495,
+        "_id": "6a8da3ce15bb59d0e46f8a44",
+        "joinedAt": "2026-08-25T14:16:46.826Z"
+      },
+      {
+        "discordId": "498784834508947459",
+        "totalEarned": 21615,
+        "_id": "6a8db2c115bb59d0e46f8ec1",
+        "joinedAt": "2026-08-25T15:20:33.562Z"
+      },
+      {
+        "discordId": "438376780324143106",
+        "totalEarned": 9168,
+        "_id": "6a8db58f15bb59d0e46f8ffe",
+        "joinedAt": "2026-08-25T15:32:31.247Z"
+      },
+      {
+        "discordId": "569513708099862550",
+        "totalEarned": 25757,
+        "_id": "6a8dcb6015bb59d0e46f9e18",
+        "joinedAt": "2026-08-25T17:05:36.287Z"
+      },
+      {
+        "discordId": "993340228452483155",
+        "totalEarned": 3992,
+        "_id": "6a8dd40d15bb59d0e46fa073",
+        "joinedAt": "2026-08-25T17:42:37.010Z"
+      },
+      {
+        "discordId": "1513428101399318652",
+        "totalEarned": 8771,
+        "_id": "6a8dd49515bb59d0e46fa0d6",
+        "joinedAt": "2026-08-25T17:44:53.040Z"
+      },
+      {
+        "discordId": "465090189262585866",
+        "totalEarned": 38100,
+        "_id": "6a8e68a715bb59d0e46fc8ff",
+        "joinedAt": "2026-08-26T04:16:39.753Z"
+      },
+      {
+        "discordId": "503754538759487498",
+        "totalEarned": 6164,
+        "_id": "6a8e86bf15bb59d0e46fd812",
+        "joinedAt": "2026-08-26T06:25:03.561Z"
+      },
+      {
+        "discordId": "695568938435608637",
+        "totalEarned": 6453,
+        "_id": "6a8e9d5415bb59d0e46fdd74",
+        "joinedAt": "2026-08-26T08:01:24.968Z"
+      },
+      {
+        "discordId": "1281817432356421653",
+        "totalEarned": 2021,
+        "_id": "6a8ee99d15bb59d0e46ff79e",
+        "joinedAt": "2026-08-26T13:26:53.120Z"
+      },
+      {
+        "discordId": "793337228944211978",
+        "totalEarned": 8389,
+        "_id": "6a8f10d915bb59d0e470016f",
+        "joinedAt": "2026-08-26T16:14:17.051Z"
+      },
+      {
+        "discordId": "595479767919230984",
+        "totalEarned": 3728,
+        "_id": "6a8f1e9115bb59d0e4700de9",
+        "joinedAt": "2026-08-26T17:12:49.893Z"
+      },
+      {
+        "discordId": "456696560416194570",
+        "totalEarned": 13791,
+        "_id": "6a8fdc4115bb59d0e4704918",
+        "joinedAt": "2026-08-27T06:42:09.913Z"
+      },
+      {
+        "discordId": "1218504651897311275",
+        "totalEarned": 4045,
+        "_id": "6a904d3515bb59d0e4706f2a",
+        "joinedAt": "2026-08-27T14:44:05.850Z"
+      },
+      {
+        "discordId": "1000036187307769886",
+        "totalEarned": 3079,
+        "_id": "6a904d7915bb59d0e4706fa8",
+        "joinedAt": "2026-08-27T14:45:13.673Z"
+      },
+      {
+        "discordId": "1275826960534343792",
+        "totalEarned": 5415,
+        "_id": "6a9061f315bb59d0e47075ab",
+        "joinedAt": "2026-08-27T16:12:35.755Z"
+      },
+      {
+        "discordId": "477391257086197771",
+        "totalEarned": 2868,
+        "_id": "6a90ca2a15bb59d0e4709cc5",
+        "joinedAt": "2026-08-27T23:37:14.103Z"
+      },
+      {
+        "discordId": "716671343483027536",
+        "totalEarned": 4809,
+        "_id": "6a91717e15bb59d0e470d447",
+        "joinedAt": "2026-08-28T11:31:10.167Z"
+      },
+      {
+        "discordId": "1513600736712458367",
+        "totalEarned": 6976,
+        "_id": "6a91abde4f8786d81be5d56e",
+        "joinedAt": "2026-08-28T15:40:14.669Z"
+      },
+      {
+        "discordId": "1451348019768332482",
+        "totalEarned": 6057,
+        "_id": "6a91b7624f8786d81be5d901",
+        "joinedAt": "2026-08-28T16:29:22.381Z"
+      },
+      {
+        "discordId": "656562242652864543",
+        "totalEarned": 12396,
+        "_id": "6a91e8764f8786d81be5eebc",
+        "joinedAt": "2026-08-28T19:58:46.676Z"
+      },
+      {
+        "discordId": "368797339499888650",
+        "totalEarned": 2243,
+        "_id": "6a920c824f8786d81be5f776",
+        "joinedAt": "2026-08-28T22:32:34.200Z"
+      },
+      {
+        "discordId": "411857995732090880",
+        "totalEarned": 556,
+        "_id": "6a92583f4f8786d81be61292",
+        "joinedAt": "2026-08-29T03:55:43.031Z"
+      },
+      {
+        "discordId": "369123825289265152",
+        "totalEarned": 4927,
+        "_id": "6a9281414f8786d81be624ba",
+        "joinedAt": "2026-08-29T06:50:41.362Z"
+      },
+      {
+        "discordId": "1258814891502997545",
+        "totalEarned": 3640,
+        "_id": "6a92f9b74f8786d81be6504e",
+        "joinedAt": "2026-08-29T15:24:39.871Z"
+      },
+      {
+        "discordId": "599278425869647914",
+        "totalEarned": 7242,
+        "_id": "6a938e084f8786d81be686ab",
+        "joinedAt": "2026-08-30T01:57:28.525Z"
+      },
+      {
+        "discordId": "862266810568146985",
+        "totalEarned": 1136,
+        "_id": "6a9393074f8786d81be688b7",
+        "joinedAt": "2026-08-30T02:18:47.848Z"
+      },
+      {
+        "discordId": "164323064752898048",
+        "totalEarned": 2791,
+        "_id": "6a93aee04f8786d81be69071",
+        "joinedAt": "2026-08-30T04:17:36.433Z"
+      },
+      {
+        "discordId": "530707102289625101",
+        "totalEarned": 5060,
+        "_id": "6a93c2e94f8786d81be69fa3",
+        "joinedAt": "2026-08-30T05:43:05.670Z"
+      },
+      {
+        "discordId": "1240520694165405707",
+        "totalEarned": 668,
+        "_id": "6a93d30ca1f95aa926e46a7f",
+        "joinedAt": "2026-08-30T06:51:56.962Z"
+      },
+      {
+        "discordId": "503793384083947521",
+        "totalEarned": 3110,
+        "_id": "6a940ac5a1f95aa926e47aa0",
+        "joinedAt": "2026-08-30T10:49:41.465Z"
+      },
+      {
+        "discordId": "513879916169920512",
+        "totalEarned": 2151,
+        "_id": "6a9421cde5c1253b844dc8e4",
+        "joinedAt": "2026-08-30T12:27:57.274Z"
+      }
+    ],
+    "isActive": false,
+    "isScheduled": false,
+    "setBy": "338418945620967434",
+    "setAt": "2026-08-25T01:40:11.828Z",
+    "startDate": "2026-08-25T03:00:00.000Z",
+    "endAt": "2026-08-30T17:01:00.000Z",
+    "createdAt": "2026-08-25T01:40:11.828Z",
+    "updatedAt": "2026-08-30T17:01:39.974Z",
+    "__v": 46
+  },
+  {
+    "_id": "6a83a207c9735332123bf83a",
+    "guildId": "863959415702028318",
+    "slug": "nismara-august-at-tmp",
+    "nameEvent": "Nismara August at TMP",
+    "multiplier": 0.5,
+    "imageUrl": "https://images.nismara.my.id/events/338418945620967434-1787011591095-nismara-merah-putih.webp",
+    "type": "TruckersMP",
+    "gameId": "1",
+    "participants": [
+      {
+        "discordId": "338418945620967434",
+        "totalEarned": 33203,
+        "_id": "6a83a56a597b50e6f0720d05",
+        "joinedAt": "2026-08-18T00:20:58.640Z"
+      },
+      {
+        "discordId": "695568938435608637",
+        "totalEarned": 19761,
+        "_id": "6a86c0a1597b50e6f07303f7",
+        "joinedAt": "2026-08-20T08:53:53.573Z"
+      },
+      {
+        "discordId": "687520638218272778",
+        "totalEarned": 12730,
+        "_id": "6a8730d8597b50e6f073245f",
+        "joinedAt": "2026-08-20T16:52:40.013Z"
+      },
+      {
+        "discordId": "756109166174535771",
+        "totalEarned": 1413,
+        "_id": "6a882d4eb3c9563191facfb7",
+        "joinedAt": "2026-08-21T10:49:50.455Z"
+      },
+      {
+        "discordId": "1088989514942398566",
+        "totalEarned": 6451,
+        "_id": "6a890c1776cce4e96f32eaad",
+        "joinedAt": "2026-08-22T02:40:23.935Z"
+      },
+      {
+        "discordId": "477391257086197771",
+        "totalEarned": 3250,
+        "_id": "6a8baf0e76cce4e96f339996",
+        "joinedAt": "2026-08-24T02:40:14.086Z"
+      },
+      {
+        "discordId": "384287010883502081",
+        "totalEarned": 79,
+        "_id": "6a8c472976cce4e96f33c03a",
+        "joinedAt": "2026-08-24T13:29:13.099Z"
+      }
+    ],
+    "isActive": false,
+    "setBy": "338418945620967434",
+    "setAt": "2026-08-18T00:06:31.629Z",
+    "endAt": "2026-08-25T00:00:00.000Z",
+    "createdAt": "2026-08-18T00:06:31.629Z",
+    "updatedAt": "2026-08-25T00:00:41.699Z",
+    "__v": 7
+  },
+  {
+    "_id": "6a819b44e6fa5304661a97d5",
+    "guildId": "863959415702028318",
+    "nameEvent": "1st Anniversary Nismara Group",
+    "multiplier": 1,
+    "imageUrl": "https://images.nismara.my.id/web/images/nismara_1year.webp",
+    "setBy": "338418945620967434",
+    "setAt": "2026-08-16T11:13:08.414Z",
+    "endAt": "2026-08-18T00:00:00.000Z",
+    "createdAt": "2026-08-16T11:13:08.414Z",
+    "updatedAt": "2026-08-18T00:00:07.207Z",
+    "gameId": "all",
+    "isActive": false,
+    "participants": [
+      {
+        "discordId": "338418945620967434",
+        "totalEarned": 25481,
+        "_id": "6a835b8f597b50e6f071f2b1",
+        "joinedAt": "2026-08-17T19:05:51.215Z"
+      },
+      {
+        "discordId": "569513708099862550",
+        "totalEarned": 5661,
+        "_id": "6a836668597b50e6f071f4fb",
+        "joinedAt": "2026-08-17T19:52:08.028Z"
+      },
+      {
+        "discordId": "599278425869647914",
+        "totalEarned": 16924,
+        "_id": "6a83788a597b50e6f071fe5d",
+        "joinedAt": "2026-08-17T21:09:30.057Z"
+      },
+      {
+        "discordId": "456696560416194570",
+        "totalEarned": 1169,
+        "_id": "6a8387a5597b50e6f0720131",
+        "joinedAt": "2026-08-17T22:13:57.532Z"
+      }
+    ],
+    "slug": "1st-anniversary-nismara-group",
+    "type": "all",
+    "__v": 4
+  }
+]

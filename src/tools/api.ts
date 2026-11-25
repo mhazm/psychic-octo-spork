@@ -529,4 +529,63 @@ export function registerApiTools(server: McpServer) {
       }
     }
   );
+
+  // 13. Knowledge Base
+  server.tool(
+    "get_kb_via_api",
+    "Mengambil panduan SOP, tutorial, peraturan, dan dokumentasi Knowledge Base (KB) resmi dari Nismara Transport API.",
+    {
+      slug: z
+        .string()
+        .optional()
+        .describe("Optional slug untuk mengambil isi lengkap satu artikel KB spesifik (contoh: 'panduan-konvoi-resmi')"),
+      category: z
+        .string()
+        .optional()
+        .describe("Optional nama kategori untuk memfilter artikel (contoh: 'Tutorial', 'Peraturan')"),
+      categorySlug: z
+        .string()
+        .optional()
+        .describe("Optional slug kategori untuk memfilter artikel"),
+      q: z
+        .string()
+        .optional()
+        .describe("Optional kata kunci pencarian judul atau deskripsi artikel KB"),
+      accessLevel: z
+        .string()
+        .optional()
+        .describe("Optional filter hak akses ('public', 'driver', atau 'manager')"),
+      includeContent: z
+        .boolean()
+        .optional()
+        .describe("Set true jika ingin menyertakan teks markdown lengkap di list pencarian (default: false)"),
+    },
+    async ({ slug, category, categorySlug, q, accessLevel, includeContent }) => {
+      try {
+        const baseUrl = process.env.NISMARA_API_URL || "http://localhost:3000";
+        let url = `${baseUrl}/api/mcp/kb`;
+        const params = new URLSearchParams();
+        if (slug) params.append("slug", slug.trim());
+        if (category) params.append("category", category.trim());
+        if (categorySlug) params.append("categorySlug", categorySlug.trim());
+        if (q) params.append("q", q.trim());
+        if (accessLevel) params.append("accessLevel", accessLevel.trim());
+        if (includeContent !== undefined) params.append("includeContent", String(includeContent));
+        
+        const qs = params.toString();
+        if (qs) url += `?${qs}`;
+
+        const response = await fetch(url, {
+          headers: {
+            "Authorization": `Bearer ${process.env.MCP_API_TOKEN}`
+          }
+        });
+        if (!response.ok) return { content: [{ type: "text", text: `API Error: ${response.status} ${response.statusText}` }] };
+        const data = await response.json();
+        return { content: [{ type: "text", text: JSON.stringify(data, null, 2) }] };
+      } catch (err: any) {
+        return { content: [{ type: "text", text: `Failed to fetch from API: ${err.message}` }] };
+      }
+    }
+  );
 }

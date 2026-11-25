@@ -1,0 +1,430 @@
+[
+  {
+    "_id": "6a8070fa2c49d97d8c6d7602",
+    "guildId": "863959415702028318",
+    "gameId": "1",
+    "convoyUri": "excavated-soil-run",
+    "convoyName": "Excavated Soil Run",
+    "description": "Bawa Excavated Soil",
+    "imageUrl": "https://images.nismara.my.id/events/convoys/460737485719207947-1786802425705-ets2-20260815-205627-00.webp",
+    "password": "drdre",
+    "active": false,
+    "setBy": "460737485719207947",
+    "typeConvoy": "Mingguan",
+    "startDate": "2026-08-16T14:00:00.000Z",
+    "meetupDate": "2026-08-16T13:45:00.000Z",
+    "sourceCity": "London (Base Map)",
+    "destinationCity": "Aberdeen (Base Map)",
+    "sourceCompany": "Posped",
+    "destinationCompany": "Tree-Et",
+    "cargoName": "Excavated Soil",
+    "cargoMass": 19,
+    "plannedDistanceKm": 883,
+    "partisipan": [
+      {
+        "truckyId": "262644",
+        "discordId": "530707102289625101",
+        "jobId": 26644588
+      },
+      {
+        "truckyId": "242319",
+        "discordId": "465090189262585866",
+        "jobId": 26644493,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279328",
+        "discordId": "626026735309422612",
+        "jobId": 26644427,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "269068",
+        "discordId": "720625638469271665",
+        "jobId": 26644803
+      },
+      {
+        "truckyId": "263877",
+        "discordId": "617669587005341718",
+        "jobId": 26644876,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "249663",
+        "discordId": "460737485719207947",
+        "jobId": 26644096,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279509",
+        "discordId": "569513708099862550",
+        "jobId": 26644970,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "247525",
+        "discordId": "1088989514942398566",
+        "jobId": 26645021,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "257058",
+        "discordId": "498784834508947459",
+        "jobId": 26645082,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "247597",
+        "discordId": "687520638218272778",
+        "jobId": 26645070,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "246332",
+        "discordId": "345519014467993610",
+        "jobId": 26645039
+      },
+      {
+        "truckyId": "246402",
+        "discordId": "377833394131697674",
+        "jobId": 26645064,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279690",
+        "discordId": "1513428101399318652",
+        "jobId": 26644926
+      }
+    ],
+    "interested": [
+      "377833394131697674",
+      "460737485719207947",
+      "569513708099862550",
+      "530707102289625101",
+      "465090189262585866",
+      "617669587005341718",
+      "626026735309422612",
+      "1513428101399318652",
+      "720625638469271665"
+    ],
+    "roadCaptain": "498784834508947459",
+    "createdAt": "2026-08-15T14:00:26.759Z",
+    "updatedAt": "2026-08-16T17:00:08.657Z",
+    "notified1h": true,
+    "ticketNumber": "NCE-0007"
+  },
+  {
+    "_id": "6a7755098de16e81276708ab",
+    "guildId": "863959415702028318",
+    "gameId": "2",
+    "convoyUri": "us-101-showcase",
+    "convoyName": "US 101 Showcase",
+    "description": "Kita Belajar Yuk!\r\nKali ini nismara dengan saya akan melaksanakan edutrip mengenal california dan lainnya di US Highway 101",
+    "imageUrl": "https://images.nismara.my.id/events/convoys/460737485719207947-1786205449213-ats-20260723-011651-00.webp",
+    "password": "us101california",
+    "active": false,
+    "setBy": "460737485719207947",
+    "typeConvoy": "Mingguan",
+    "startDate": "2026-08-11T14:15:00.000Z",
+    "meetupDate": "2026-08-11T13:30:00.000Z",
+    "sourceCity": "Los Angeles (Base Map)",
+    "destinationCity": "Eureka (Base Map)",
+    "sourceCompany": "Walbert",
+    "destinationCompany": "Plaster and Sons",
+    "cargoName": "Battery",
+    "cargoMass": 18,
+    "plannedDistanceKm": 1056,
+    "partisipan": [
+      {
+        "truckyId": "249663",
+        "discordId": "460737485719207947",
+        "jobId": 26562036,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "242319",
+        "discordId": "465090189262585866",
+        "jobId": 26562085,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279328",
+        "discordId": "626026735309422612",
+        "jobId": 26562088,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "257058",
+        "discordId": "498784834508947459",
+        "jobId": 26562135,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "181894",
+        "discordId": "560419724249530369",
+        "jobId": 26562322,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "246402",
+        "discordId": "377833394131697674",
+        "jobId": 26562349,
+        "claimedReward": true
+      }
+    ],
+    "interested": [],
+    "roadCaptain": "465090189262585866",
+    "createdAt": "2026-08-08T16:10:49.804Z",
+    "updatedAt": "2026-08-13T19:15:26.179Z",
+    "isActive": false,
+    "isEnded": true,
+    "ticketNumber": "NCE-0006",
+    "notified1h": true
+  },
+  {
+    "_id": "6a7755098de16e81276708aa",
+    "guildId": "863959415702028318",
+    "gameId": "1",
+    "convoyUri": "london-run",
+    "convoyName": "London Run",
+    "description": "Via Groningen dan Eurotunnel",
+    "imageUrl": "https://images.nismara.my.id/events/convoys/460737485719207947-1786205448286-ets2-20260804-130706-00.webp",
+    "password": "makandulusana",
+    "active": false,
+    "setBy": "460737485719207947",
+    "typeConvoy": "Mingguan",
+    "startDate": "2026-08-09T13:45:00.000Z",
+    "meetupDate": "2026-08-09T13:30:00.000Z",
+    "sourceCity": "Berlin (Base Map)",
+    "destinationCity": "London (Base Map)",
+    "sourceCompany": "San Builders",
+    "destinationCompany": "Posped",
+    "cargoName": "Ice Cream",
+    "cargoMass": 19,
+    "plannedDistanceKm": 1350,
+    "partisipan": [
+      {
+        "truckyId": "249663",
+        "discordId": "460737485719207947",
+        "jobId": 26527910,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "242319",
+        "discordId": "465090189262585866",
+        "jobId": 26528079,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "257058",
+        "discordId": "498784834508947459",
+        "jobId": 26528082,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279328",
+        "discordId": "626026735309422612",
+        "jobId": 26528077,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "269068",
+        "discordId": "720625638469271665",
+        "jobId": 26528102,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "263877",
+        "discordId": "617669587005341718",
+        "jobId": 26528131,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279213",
+        "discordId": "411857995732090880",
+        "jobId": 85568392935732460,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "262644",
+        "discordId": "530707102289625101",
+        "jobId": 26528142,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279382",
+        "discordId": "542485627699068930",
+        "jobId": 26528184,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "246402",
+        "discordId": "377833394131697674",
+        "jobId": 26528210,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279318",
+        "discordId": "1275826960534343792",
+        "jobId": 26528378,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "280904",
+        "discordId": "255237090747482112",
+        "jobId": 26528342,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279522",
+        "discordId": "1482648932973678705",
+        "jobId": 26528139,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279509",
+        "discordId": "569513708099862550",
+        "jobId": 26528732,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "192298",
+        "discordId": "456696560416194570",
+        "jobId": 26528743,
+        "claimedReward": true
+      }
+    ],
+    "interested": [],
+    "roadCaptain": "465090189262585866",
+    "createdAt": "2026-08-08T16:10:49.673Z",
+    "updatedAt": "2026-08-13T19:15:26.152Z",
+    "ticketNumber": "NCE-0005",
+    "notified1h": true
+  },
+  {
+    "_id": "6a6df0bc34811ae9be42b496",
+    "guildId": "863959415702028318",
+    "gameId": "1",
+    "convoyUri": "travemunde-run",
+    "convoyName": "Travemunde Run!",
+    "description": "Base Map Saja\r\nBawa Live Cattle",
+    "imageUrl": "https://images.nismara.my.id/convoys/460737485719207947-1785589806117-ets2-20260601-014056-00.webp",
+    "password": "runningdog",
+    "active": false,
+    "setBy": "Admin",
+    "typeConvoy": "Mingguan",
+    "startDate": "2026-08-02T13:45:00.000Z",
+    "meetupDate": "2026-08-02T13:30:00.000Z",
+    "sourceCity": "Milan",
+    "destinationCity": "Travemunde",
+    "sourceCompany": "Cargotras",
+    "destinationCompany": "RTLog",
+    "cargoName": "Live Cattle",
+    "cargoMass": 17,
+    "plannedDistanceKm": 1381,
+    "partisipan": [
+      {
+        "truckyId": "249663",
+        "discordId": "460737485719207947",
+        "jobId": 26406480,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279328",
+        "discordId": "626026735309422612",
+        "jobId": 26406675,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "242319",
+        "discordId": "465090189262585866",
+        "jobId": 26406894,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "268338",
+        "discordId": "432532707839311893",
+        "jobId": 26406910,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "275727",
+        "discordId": "758754205208281101",
+        "jobId": 696969,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "263877",
+        "discordId": "617669587005341718",
+        "jobId": 26406965,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "269068",
+        "discordId": "720625638469271665",
+        "jobId": 26406974,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "262644",
+        "discordId": "530707102289625101",
+        "jobId": 26406973,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279549",
+        "discordId": "782951150008664064",
+        "jobId": 26406822,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279318",
+        "discordId": "1275826960534343792",
+        "jobId": 26406642,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "247597",
+        "discordId": "687520638218272778",
+        "jobId": 26407056,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "246402",
+        "discordId": "377833394131697674",
+        "jobId": 26406968,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "257058",
+        "discordId": "498784834508947459",
+        "jobId": 26407072,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "256737",
+        "discordId": "438376780324143106",
+        "jobId": 26407448,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279509",
+        "discordId": "569513708099862550",
+        "jobId": 26407395,
+        "claimedReward": true
+      },
+      {
+        "truckyId": "279382",
+        "discordId": "542485627699068930",
+        "jobId": 26407784,
+        "claimedReward": true
+      }
+    ],
+    "createdAt": "2026-08-01T13:12:28.414Z",
+    "updatedAt": "2026-08-03T06:30:37.323Z",
+    "__v": 1,
+    "interested": [],
+    "notified1h": true,
+    "ticketNumber": "NCE-0002"
+  }
+]

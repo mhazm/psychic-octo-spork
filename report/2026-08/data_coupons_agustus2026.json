@@ -1,0 +1,789 @@
+[
+  {
+    "_id": "6a8cedec804063c597e40abd",
+    "guildId": "863959415702028318",
+    "nameCoupon": "Maulid Nabi Muhammad SAW 1448 H",
+    "codeCoupon": "maulidnabi1448",
+    "type": "NC",
+    "minAmount": 3000,
+    "maxAmount": 15000,
+    "totalNcClaimed": 208000,
+    "imageUrl": "https://images.nismara.my.id/coupons/338418945620967434-1787620843108-ilustrasi-ucapan-maulid-nabi-2026.webp",
+    "setBy": "Ini Lemper",
+    "startDate": "2026-08-25T03:00:00.000Z",
+    "endDate": "2026-08-26T03:00:00.000Z",
+    "durationDays": 1,
+    "driverClaims": [
+      {
+        "discordId": "626026735309422612",
+        "driverId": "279328",
+        "amount": 12000,
+        "claimedAt": "2026-08-25T03:03:48.147Z"
+      },
+      {
+        "discordId": "720625638469271665",
+        "driverId": "269068",
+        "amount": 11000,
+        "claimedAt": "2026-08-25T03:05:29.981Z"
+      },
+      {
+        "discordId": "560419724249530369",
+        "driverId": "181894",
+        "amount": 7000,
+        "claimedAt": "2026-08-25T03:18:27.236Z"
+      },
+      {
+        "discordId": "1000036187307769886",
+        "driverId": "246273",
+        "amount": 9000,
+        "claimedAt": "2026-08-25T03:37:06.609Z"
+      },
+      {
+        "discordId": "438376780324143106",
+        "driverId": "256737",
+        "amount": 13000,
+        "claimedAt": "2026-08-25T03:41:29.783Z"
+      },
+      {
+        "discordId": "569513708099862550",
+        "driverId": "279509",
+        "amount": 8000,
+        "claimedAt": "2026-08-25T04:14:21.488Z"
+      },
+      {
+        "discordId": "384287010883502081",
+        "driverId": "101740",
+        "amount": 4000,
+        "claimedAt": "2026-08-25T04:20:31.504Z"
+      },
+      {
+        "discordId": "465090189262585866",
+        "driverId": "242319",
+        "amount": 5000,
+        "claimedAt": "2026-08-25T04:30:07.090Z"
+      },
+      {
+        "discordId": "687520638218272778",
+        "driverId": "247597",
+        "amount": 12000,
+        "claimedAt": "2026-08-25T06:04:57.777Z"
+      },
+      {
+        "discordId": "498784834508947459",
+        "driverId": "257058",
+        "amount": 8000,
+        "claimedAt": "2026-08-25T06:21:10.796Z"
+      },
+      {
+        "discordId": "789119031286300672",
+        "driverId": "256075",
+        "amount": 6000,
+        "claimedAt": "2026-08-25T06:33:46.488Z"
+      },
+      {
+        "discordId": "1258814891502997545",
+        "driverId": "256375",
+        "amount": 7000,
+        "claimedAt": "2026-08-25T07:25:29.741Z"
+      },
+      {
+        "discordId": "617669587005341718",
+        "driverId": "263877",
+        "amount": 4000,
+        "claimedAt": "2026-08-25T08:22:10.952Z"
+      },
+      {
+        "discordId": "1109756597774843977",
+        "driverId": "246255",
+        "amount": 9000,
+        "claimedAt": "2026-08-25T08:35:14.962Z"
+      },
+      {
+        "discordId": "377833394131697674",
+        "driverId": "246402",
+        "amount": 13000,
+        "claimedAt": "2026-08-25T08:40:31.633Z"
+      },
+      {
+        "discordId": "1088989514942398566",
+        "driverId": "247525",
+        "amount": 4000,
+        "claimedAt": "2026-08-25T08:42:27.823Z"
+      },
+      {
+        "discordId": "979476718479884379",
+        "driverId": "181898",
+        "amount": 12000,
+        "claimedAt": "2026-08-25T09:35:46.073Z"
+      },
+      {
+        "discordId": "573884186998603777",
+        "driverId": "247418",
+        "amount": 9000,
+        "claimedAt": "2026-08-25T11:17:21.696Z"
+      },
+      {
+        "discordId": "656562242652864543",
+        "driverId": "59783",
+        "amount": 14000,
+        "claimedAt": "2026-08-25T12:21:15.398Z"
+      },
+      {
+        "discordId": "456696560416194570",
+        "driverId": "192298",
+        "amount": 11000,
+        "claimedAt": "2026-08-25T12:25:01.771Z"
+      },
+      {
+        "discordId": "164323064752898048",
+        "driverId": "246198",
+        "amount": 10000,
+        "claimedAt": "2026-08-25T12:52:54.719Z"
+      },
+      {
+        "discordId": "993340228452483155",
+        "driverId": "280372",
+        "amount": 9000,
+        "claimedAt": "2026-08-25T13:47:31.740Z"
+      },
+      {
+        "discordId": "432532707839311893",
+        "driverId": "268338",
+        "amount": 5000,
+        "claimedAt": "2026-08-25T15:06:15.379Z"
+      },
+      {
+        "discordId": "595479767919230984",
+        "driverId": "265627",
+        "amount": 3000,
+        "claimedAt": "2026-08-25T15:11:24.983Z"
+      },
+      {
+        "discordId": "1285073617817702400",
+        "driverId": "272761",
+        "amount": 3000,
+        "claimedAt": "2026-08-25T15:40:09.751Z"
+      }
+    ],
+    "isActive": false,
+    "isScheduled": false,
+    "updatedAt": "2026-08-26T03:00:52.362Z"
+  },
+  {
+    "_id": "6a82f626071af757a6b2e1f2",
+    "guildId": "863959415702028318",
+    "nameCoupon": "81 Tahun Kemerdekaan Indonesia",
+    "codeCoupon": "81tahunIndonesia",
+    "type": "NC",
+    "minAmount": 10000,
+    "maxAmount": 25000,
+    "totalNcClaimed": 587000,
+    "imageUrl": "https://images.nismara.my.id/coupons/338418945620967434-1786967590295-81-indonesia.webp",
+    "setBy": "Ini Lemper",
+    "startDate": "2026-08-17T11:53:10.814Z",
+    "endDate": "2026-08-18T11:50:00.000Z",
+    "durationDays": 1,
+    "driverClaims": [
+      {
+        "discordId": "720625638469271665",
+        "driverId": "269068",
+        "amount": 15000,
+        "claimedAt": "2026-08-17T11:53:31.159Z"
+      },
+      {
+        "discordId": "498784834508947459",
+        "driverId": "257058",
+        "amount": 20000,
+        "claimedAt": "2026-08-17T11:53:35.774Z"
+      },
+      {
+        "discordId": "569513708099862550",
+        "driverId": "279509",
+        "amount": 22000,
+        "claimedAt": "2026-08-17T11:53:36.371Z"
+      },
+      {
+        "discordId": "626026735309422612",
+        "driverId": "279328",
+        "amount": 11000,
+        "claimedAt": "2026-08-17T11:53:41.170Z"
+      },
+      {
+        "discordId": "338418945620967434",
+        "driverId": "181458",
+        "amount": 23000,
+        "claimedAt": "2026-08-17T11:53:41.270Z"
+      },
+      {
+        "discordId": "1109756597774843977",
+        "driverId": "246255",
+        "amount": 24000,
+        "claimedAt": "2026-08-17T11:53:41.678Z"
+      },
+      {
+        "discordId": "460737485719207947",
+        "driverId": "249663",
+        "amount": 25000,
+        "claimedAt": "2026-08-17T11:53:44.966Z"
+      },
+      {
+        "discordId": "384287010883502081",
+        "driverId": "101740",
+        "amount": 24000,
+        "claimedAt": "2026-08-17T11:54:00.206Z"
+      },
+      {
+        "discordId": "164323064752898048",
+        "driverId": "246198",
+        "amount": 24000,
+        "claimedAt": "2026-08-17T11:54:23.313Z"
+      },
+      {
+        "discordId": "1293441725750181982",
+        "driverId": "258989",
+        "amount": 12000,
+        "claimedAt": "2026-08-17T11:55:48.155Z"
+      },
+      {
+        "discordId": "656562242652864543",
+        "driverId": "59783",
+        "amount": 17000,
+        "claimedAt": "2026-08-17T11:56:38.707Z"
+      },
+      {
+        "discordId": "432532707839311893",
+        "driverId": "268338",
+        "amount": 12000,
+        "claimedAt": "2026-08-17T11:57:02.007Z"
+      },
+      {
+        "discordId": "456696560416194570",
+        "driverId": "192298",
+        "amount": 14000,
+        "claimedAt": "2026-08-17T11:59:25.698Z"
+      },
+      {
+        "discordId": "465090189262585866",
+        "driverId": "242319",
+        "amount": 14000,
+        "claimedAt": "2026-08-17T12:00:37.232Z"
+      },
+      {
+        "discordId": "503754538759487498",
+        "driverId": "279422",
+        "amount": 17000,
+        "claimedAt": "2026-08-17T12:01:36.225Z"
+      },
+      {
+        "discordId": "617669587005341718",
+        "driverId": "263877",
+        "amount": 15000,
+        "claimedAt": "2026-08-17T12:02:26.301Z"
+      },
+      {
+        "discordId": "513879916169920512",
+        "driverId": "31635",
+        "amount": 24000,
+        "claimedAt": "2026-08-17T12:04:08.529Z"
+      },
+      {
+        "discordId": "477391257086197771",
+        "driverId": "246959",
+        "amount": 17000,
+        "claimedAt": "2026-08-17T12:12:26.843Z"
+      },
+      {
+        "discordId": "677127506209407006",
+        "driverId": "246147",
+        "amount": 20000,
+        "claimedAt": "2026-08-17T12:18:56.446Z"
+      },
+      {
+        "discordId": "369123825289265152",
+        "driverId": "246373",
+        "amount": 13000,
+        "claimedAt": "2026-08-17T12:27:55.139Z"
+      },
+      {
+        "discordId": "789119031286300672",
+        "driverId": "256075",
+        "amount": 18000,
+        "claimedAt": "2026-08-17T12:29:59.665Z"
+      },
+      {
+        "discordId": "531430558371151882",
+        "driverId": "246442",
+        "amount": 19000,
+        "claimedAt": "2026-08-17T12:32:19.089Z"
+      },
+      {
+        "discordId": "816739990692298752",
+        "driverId": "282291",
+        "amount": 17000,
+        "claimedAt": "2026-08-17T12:51:46.501Z"
+      },
+      {
+        "discordId": "1240520694165405707",
+        "driverId": "246261",
+        "amount": 16000,
+        "claimedAt": "2026-08-17T13:23:26.036Z"
+      },
+      {
+        "discordId": "1111964192065462272",
+        "driverId": "246313",
+        "amount": 14000,
+        "claimedAt": "2026-08-17T13:39:40.643Z"
+      },
+      {
+        "discordId": "979476718479884379",
+        "driverId": "181898",
+        "amount": 18000,
+        "claimedAt": "2026-08-17T14:17:43.538Z"
+      },
+      {
+        "discordId": "345519014467993610",
+        "driverId": "246332",
+        "amount": 14000,
+        "claimedAt": "2026-08-17T15:03:27.703Z"
+      },
+      {
+        "discordId": "438376780324143106",
+        "driverId": "256737",
+        "amount": 23000,
+        "claimedAt": "2026-08-17T15:16:05.723Z"
+      },
+      {
+        "discordId": "560419724249530369",
+        "driverId": "181894",
+        "amount": 13000,
+        "claimedAt": "2026-08-17T16:51:57.410Z"
+      },
+      {
+        "discordId": "993340228452483155",
+        "driverId": "280372",
+        "amount": 13000,
+        "claimedAt": "2026-08-17T16:59:40.714Z"
+      },
+      {
+        "discordId": "377833394131697674",
+        "driverId": "246402",
+        "amount": 16000,
+        "claimedAt": "2026-08-17T17:18:39.274Z"
+      },
+      {
+        "discordId": "595479767919230984",
+        "driverId": "265627",
+        "amount": 11000,
+        "claimedAt": "2026-08-17T17:36:34.261Z"
+      },
+      {
+        "discordId": "599278425869647914",
+        "driverId": "246386",
+        "amount": 18000,
+        "claimedAt": "2026-08-17T19:21:55.290Z"
+      },
+      {
+        "discordId": "530707102289625101",
+        "driverId": "262644",
+        "amount": 14000,
+        "claimedAt": "2026-08-18T01:15:51.453Z"
+      }
+    ],
+    "isActive": false,
+    "updatedAt": "2026-08-18T11:50:06.098Z"
+  },
+  {
+    "_id": "6a81fd62ad4427bb909dfff1",
+    "guildId": "863959415702028318",
+    "nameCoupon": "1 Year Nismara",
+    "codeCoupon": "1yearnismara",
+    "type": "PENALTY_TICKET",
+    "minAmount": 2,
+    "maxAmount": 5,
+    "totalNcClaimed": 0,
+    "imageUrl": "https://images.nismara.my.id/web/images/nismara_1year.webp",
+    "setBy": "Ini Lemper",
+    "startDate": "2026-08-16T18:11:46.562Z",
+    "endDate": "2026-08-17T18:11:46.562Z",
+    "durationDays": 1,
+    "driverClaims": [
+      {
+        "discordId": "338418945620967434",
+        "driverId": "181458",
+        "amount": 2,
+        "claimedAt": "2026-08-16T18:16:28.901Z"
+      },
+      {
+        "discordId": "560419724249530369",
+        "driverId": "181894",
+        "amount": 5,
+        "claimedAt": "2026-08-16T18:16:54.343Z"
+      },
+      {
+        "discordId": "816739990692298752",
+        "driverId": "282291",
+        "amount": 5,
+        "claimedAt": "2026-08-16T18:30:41.370Z"
+      },
+      {
+        "discordId": "993340228452483155",
+        "driverId": "280372",
+        "amount": 4,
+        "claimedAt": "2026-08-16T18:34:59.228Z"
+      },
+      {
+        "discordId": "542485627699068930",
+        "driverId": "279382",
+        "amount": 4,
+        "claimedAt": "2026-08-16T18:50:11.380Z"
+      },
+      {
+        "discordId": "617669587005341718",
+        "driverId": "263877",
+        "amount": 2,
+        "claimedAt": "2026-08-16T19:03:39.677Z"
+      },
+      {
+        "discordId": "569513708099862550",
+        "driverId": "279509",
+        "amount": 2,
+        "claimedAt": "2026-08-16T19:13:10.140Z"
+      },
+      {
+        "discordId": "438376780324143106",
+        "driverId": "256737",
+        "amount": 4,
+        "claimedAt": "2026-08-16T19:31:23.613Z"
+      },
+      {
+        "discordId": "164323064752898048",
+        "driverId": "246198",
+        "amount": 3,
+        "claimedAt": "2026-08-16T20:34:18.272Z"
+      },
+      {
+        "discordId": "656562242652864543",
+        "driverId": "59783",
+        "amount": 2,
+        "claimedAt": "2026-08-16T21:29:33.623Z"
+      },
+      {
+        "discordId": "599278425869647914",
+        "driverId": "246386",
+        "amount": 2,
+        "claimedAt": "2026-08-16T21:46:41.150Z"
+      },
+      {
+        "discordId": "531430558371151882",
+        "driverId": "246442",
+        "amount": 3,
+        "claimedAt": "2026-08-16T21:50:16.238Z"
+      },
+      {
+        "driverId": "531430558371151882",
+        "ncAmount": 0,
+        "claimedAt": "2026-08-16T21:52:55.562Z"
+      },
+      {
+        "discordId": "626026735309422612",
+        "driverId": "279328",
+        "amount": 5,
+        "claimedAt": "2026-08-16T23:06:08.326Z"
+      },
+      {
+        "discordId": "465090189262585866",
+        "driverId": "242319",
+        "amount": 4,
+        "claimedAt": "2026-08-16T23:13:41.092Z"
+      },
+      {
+        "discordId": "789119031286300672",
+        "driverId": "256075",
+        "amount": 5,
+        "claimedAt": "2026-08-16T23:14:39.399Z"
+      },
+      {
+        "driverId": "789119031286300672",
+        "ncAmount": 0,
+        "claimedAt": "2026-08-16T23:20:38.428Z"
+      },
+      {
+        "discordId": "411857995732090880",
+        "driverId": "279213",
+        "amount": 3,
+        "claimedAt": "2026-08-16T23:36:11.207Z"
+      },
+      {
+        "discordId": "345519014467993610",
+        "driverId": "246332",
+        "amount": 4,
+        "claimedAt": "2026-08-17T01:00:42.364Z"
+      },
+      {
+        "discordId": "720625638469271665",
+        "driverId": "269068",
+        "amount": 5,
+        "claimedAt": "2026-08-17T01:27:08.181Z"
+      },
+      {
+        "discordId": "377833394131697674",
+        "driverId": "246402",
+        "amount": 4,
+        "claimedAt": "2026-08-17T01:56:33.139Z"
+      },
+      {
+        "discordId": "498784834508947459",
+        "driverId": "257058",
+        "amount": 3,
+        "claimedAt": "2026-08-17T02:35:04.655Z"
+      },
+      {
+        "discordId": "804280471524474921",
+        "driverId": "250076",
+        "amount": 5,
+        "claimedAt": "2026-08-17T02:57:36.804Z"
+      },
+      {
+        "discordId": "691196345196740629",
+        "driverId": "247484",
+        "amount": 3,
+        "claimedAt": "2026-08-17T03:21:32.724Z"
+      },
+      {
+        "discordId": "384287010883502081",
+        "driverId": "101740",
+        "amount": 3,
+        "claimedAt": "2026-08-17T04:11:43.575Z"
+      },
+      {
+        "discordId": "1109756597774843977",
+        "driverId": "246255",
+        "amount": 4,
+        "claimedAt": "2026-08-17T05:10:22.250Z"
+      },
+      {
+        "discordId": "1285073617817702400",
+        "driverId": "272761",
+        "amount": 3,
+        "claimedAt": "2026-08-17T07:22:53.184Z"
+      },
+      {
+        "discordId": "1258814891502997545",
+        "driverId": "256375",
+        "amount": 2,
+        "claimedAt": "2026-08-17T07:34:24.596Z"
+      },
+      {
+        "discordId": "513879916169920512",
+        "driverId": "31635",
+        "amount": 2,
+        "claimedAt": "2026-08-17T09:56:42.884Z"
+      },
+      {
+        "discordId": "677127506209407006",
+        "driverId": "246147",
+        "amount": 5,
+        "claimedAt": "2026-08-17T12:26:36.149Z"
+      },
+      {
+        "discordId": "1111964192065462272",
+        "driverId": "246313",
+        "amount": 2,
+        "claimedAt": "2026-08-17T13:40:02.300Z"
+      },
+      {
+        "discordId": "595479767919230984",
+        "driverId": "265627",
+        "amount": 4,
+        "claimedAt": "2026-08-17T17:36:42.726Z"
+      }
+    ],
+    "isActive": false,
+    "updatedAt": "2026-08-17T18:12:29.844Z"
+  },
+  {
+    "_id": "6a7e2b46afabda16c881fdad",
+    "guildId": "863959415702028318",
+    "nameCoupon": "New Update Nismara Transport",
+    "codeCoupon": "newupdate1",
+    "type": "PENALTY_TICKET",
+    "minAmount": 1,
+    "maxAmount": 3,
+    "totalNcClaimed": 0,
+    "imageUrl": "https://images.nismara.my.id/web/images/ats_20260811_233504_00.webp",
+    "setBy": "Ini Lemper",
+    "startDate": "2026-08-13T20:38:30.312Z",
+    "endDate": "2026-08-14T20:38:30.312Z",
+    "durationDays": 1,
+    "driverClaims": [
+      {
+        "discordId": "338418945620967434",
+        "driverId": "181458",
+        "amount": 3,
+        "claimedAt": "2026-08-13T20:39:24.797Z"
+      },
+      {
+        "discordId": "503754538759487498",
+        "driverId": "279422",
+        "amount": 3,
+        "claimedAt": "2026-08-13T21:52:49.359Z"
+      },
+      {
+        "discordId": "656562242652864543",
+        "driverId": "59783",
+        "amount": 3,
+        "claimedAt": "2026-08-13T22:17:35.813Z"
+      },
+      {
+        "discordId": "979476718479884379",
+        "driverId": "181898",
+        "amount": 3,
+        "claimedAt": "2026-08-13T22:51:38.742Z"
+      },
+      {
+        "discordId": "377833394131697674",
+        "driverId": "246402",
+        "amount": 1,
+        "claimedAt": "2026-08-14T00:09:06.826Z"
+      },
+      {
+        "discordId": "720625638469271665",
+        "driverId": "269068",
+        "amount": 3,
+        "claimedAt": "2026-08-14T00:13:45.098Z"
+      },
+      {
+        "discordId": "573884186998603777",
+        "driverId": "247418",
+        "amount": 3,
+        "claimedAt": "2026-08-14T00:23:40.873Z"
+      },
+      {
+        "discordId": "626026735309422612",
+        "driverId": "279328",
+        "amount": 1,
+        "claimedAt": "2026-08-14T00:44:47.700Z"
+      },
+      {
+        "discordId": "617669587005341718",
+        "driverId": "263877",
+        "amount": 3,
+        "claimedAt": "2026-08-14T00:45:27.992Z"
+      },
+      {
+        "discordId": "345519014467993610",
+        "driverId": "246332",
+        "amount": 2,
+        "claimedAt": "2026-08-14T00:57:37.834Z"
+      },
+      {
+        "driverId": "345519014467993610",
+        "ncAmount": 0,
+        "claimedAt": "2026-08-14T01:00:05.559Z"
+      },
+      {
+        "discordId": "465090189262585866",
+        "driverId": "242319",
+        "amount": 2,
+        "claimedAt": "2026-08-14T01:00:51.805Z"
+      },
+      {
+        "discordId": "560419724249530369",
+        "driverId": "181894",
+        "amount": 1,
+        "claimedAt": "2026-08-14T01:28:30.956Z"
+      },
+      {
+        "discordId": "438376780324143106",
+        "driverId": "256737",
+        "amount": 1,
+        "claimedAt": "2026-08-14T01:43:58.057Z"
+      },
+      {
+        "discordId": "569513708099862550",
+        "driverId": "279509",
+        "amount": 3,
+        "claimedAt": "2026-08-14T02:38:43.477Z"
+      },
+      {
+        "discordId": "498784834508947459",
+        "driverId": "257058",
+        "amount": 2,
+        "claimedAt": "2026-08-14T04:56:57.413Z"
+      },
+      {
+        "discordId": "255237090747482112",
+        "driverId": "280904",
+        "amount": 1,
+        "claimedAt": "2026-08-14T05:05:26.574Z"
+      },
+      {
+        "discordId": "1209830431877234698",
+        "driverId": "249146",
+        "amount": 3,
+        "claimedAt": "2026-08-14T05:16:55.032Z"
+      },
+      {
+        "discordId": "1094385139095720029",
+        "driverId": "280409",
+        "amount": 3,
+        "claimedAt": "2026-08-14T06:35:00.609Z"
+      },
+      {
+        "discordId": "530707102289625101",
+        "driverId": "262644",
+        "amount": 1,
+        "claimedAt": "2026-08-14T08:17:43.910Z"
+      },
+      {
+        "discordId": "595479767919230984",
+        "driverId": "265627",
+        "amount": 1,
+        "claimedAt": "2026-08-14T12:00:28.472Z"
+      },
+      {
+        "discordId": "384287010883502081",
+        "driverId": "101740",
+        "amount": 3,
+        "claimedAt": "2026-08-14T12:31:50.488Z"
+      },
+      {
+        "discordId": "993340228452483155",
+        "driverId": "280372",
+        "amount": 1,
+        "claimedAt": "2026-08-14T12:37:10.404Z"
+      },
+      {
+        "discordId": "1111964192065462272",
+        "driverId": "246313",
+        "amount": 1,
+        "claimedAt": "2026-08-14T12:58:41.286Z"
+      },
+      {
+        "discordId": "411857995732090880",
+        "driverId": "279213",
+        "amount": 2,
+        "claimedAt": "2026-08-14T13:01:31.721Z"
+      },
+      {
+        "discordId": "460737485719207947",
+        "driverId": "249663",
+        "amount": 2,
+        "claimedAt": "2026-08-14T15:00:18.732Z"
+      },
+      {
+        "discordId": "1513428101399318652",
+        "driverId": "279690",
+        "amount": 3,
+        "claimedAt": "2026-08-14T20:27:42.627Z"
+      },
+      {
+        "driverId": "531430558371151882",
+        "ncAmount": 0,
+        "claimedAt": "2026-08-15T01:05:31.099Z"
+      }
+    ],
+    "isActive": false,
+    "updatedAt": "2026-08-17T11:28:10.515Z"
+  }
+]
